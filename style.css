@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 285px;
+    height: 360px;
+    background-color: #607d8b73;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+   
+  }
+  input#result {
+    background: #3b3535;
+    border: 10px solid #607d8b;
+    border-radius: 10px;
+    color: white;
+    font-size: 21px;
+    padding: 13px 6px;
+    text-align: right;
+}
+  .main{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .rows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .last_rows {
+  display: grid;
+  grid-template-columns: 63px 63px 125px;
+  }
+  .cal {
+      padding: 7px;
+      margin: 5px;
+      font-size: 20px;
+  }
+  .eql {
+    padding: 9px;
+    margin: 6px;
+    background: #53c809;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 6px -2px #607d8b;
+}
