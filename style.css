@@ -49,3 +49,9 @@
     border-radius: 3px;
     box-shadow: 3px 3px 6px -2px #607d8b;
 }
+.creator_name h2 {
+  font-family: lucida calligraphy;
+  text-align: center;
+  margin-top: 20px;
+  color: #53c809;
+}
